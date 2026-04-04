@@ -1,0 +1,53 @@
+{
+  "name": "Mercedes-Benz Luxury",
+  "dataColors": [
+    "#C9A84C",
+    "#6B8FA8",
+    "#4A7A6D",
+    "#A08B6E",
+    "#6B4E3D",
+    "#8B9DA8",
+    "#7A6B4E",
+    "#4E6B5E"
+  ],
+  "background": "#F5F0E8",
+  "foreground": "#2C2C2C",
+  "tableAccent": "#C9A84C",
+  "visualStyles": {
+    "*": {
+      "*": {
+        "fontFamily": [{ "value": "Segoe UI" }],
+        "fontSize": [{ "value": 11 }]
+      }
+    }
+  },
+  "textClasses": {
+    "callout": {
+      "fontSize": 36,
+      "fontFace": "Georgia",
+      "color": "#C9A84C"
+    },
+    "title": {
+      "fontSize": 13,
+      "fontFace": "Segoe UI",
+      "color": "#2C2C2C"
+    },
+    "header": {
+      "fontSize": 11,
+      "fontFace": "Segoe UI",
+      "color": "#2C2C2C"
+    },
+    "label": {
+      "fontSize": 10,
+      "fontFace": "Segoe UI",
+      "color": "#6B7280"
+    }
+  },
+  "good": "#4A7A6D",
+  "neutral": "#C9A84C",
+  "bad": "#6B4E3D",
+  "maximum": "#1A1A1A",
+  "center": "#C9A84C",
+  "minimum": "#F5F0E8",
+  "null": "#E2D9C8"
+}
