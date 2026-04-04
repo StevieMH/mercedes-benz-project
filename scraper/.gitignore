@@ -1,0 +1,38 @@
+# ── Virtual Environment ───────────────────────────────────────────
+venv/
+.venv/
+env/
+
+# ── Python cache ──────────────────────────────────────────────────
+__pycache__/
+*.pyc
+*.pyo
+
+# ── Secrets — NEVER commit token or cookie ────────────────────────
+.env
+
+# ── Auto-generated credentials (contain refresh tokens) ──────────
+data/used/credentials.json
+data/new/credentials.json
+
+# ── Scraped data — too large for GitHub ───────────────────────────
+data/used/chunks/
+data/new/chunks/
+data/used/mercedes_used_cars_FULL.json
+data/new/mercedes_new_cars_FULL.json
+
+# ── Progress files — session specific ─────────────────────────────
+data/used/progress.json
+data/new/progress.json
+
+# ── Excel outputs — generated files ──────────────────────────────
+output/
+
+# ── OS files ──────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ── IDE files ─────────────────────────────────────────────────────
+.vscode/
+.idea/
